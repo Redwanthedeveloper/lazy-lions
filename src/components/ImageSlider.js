@@ -30,7 +30,7 @@ const ImageSlider = () => {
     speed: 1000,
     autoplay: true,
     autoplaySpeed: 2000,
-    dots: true,
+    dots: false,
     responsive: [
       {
         breakpoint: 600,

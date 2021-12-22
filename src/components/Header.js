@@ -1,8 +1,25 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { connect } from '../redux/blockchain/blockchainActions';
+import { fetchData } from '../redux/data/dataActions';
 // import logo from '../assets/images/logo.png';
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
+  const dispatch = useDispatch();
+  const blockchain = useSelector((state) => state.blockchain);
+
+  const getData = () => {
+    if (blockchain.account !== '' && blockchain.smartContract !== null) {
+      dispatch(fetchData(blockchain.account));
+    }
+  };
+
+  useEffect(() => {
+    getData();
+    // eslint-disable-next-line
+  }, [blockchain.account]);
+
   return (
     <div className='header absolute w-full'>
       <div className='container mx-auto px-4 lg:px-0'>
@@ -70,7 +87,15 @@ const Header = () => {
 
           <div className='header__right hidden lg:block'>
             <div className='bg-gradient-to-r from-gradientright to-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg  font-medium text-white'>
-              <button>Connect</button>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  dispatch(connect());
+                  getData();
+                }}
+              >
+                Connect
+              </button>
             </div>
           </div>
         </div>
