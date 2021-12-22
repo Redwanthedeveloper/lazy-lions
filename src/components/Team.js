@@ -1,5 +1,8 @@
 import React from 'react';
-import teamImage from '../assets/images/item.png';
+import teamImage1 from '../assets/images/14.png';
+import teamImage2 from '../assets/images/15.png';
+import teamImage3 from '../assets/images/16.png';
+import teamImage4 from '../assets/images/17.png';
 
 const Team = () => {
   return (
@@ -12,7 +15,7 @@ const Team = () => {
           <div className='card__wrapper grid md:grid-cols-2 lg:grid-cols-4 mt-24 gap-16'>
             <div className='card bg-secondary px-8 py-16 rounded-xl  '>
               <img
-                src={teamImage}
+                src={teamImage1}
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />
@@ -27,7 +30,7 @@ const Team = () => {
 
             <div className='card bg-secondary px-8 py-16 rounded-xl  '>
               <img
-                src={teamImage}
+                src={teamImage2}
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />
@@ -42,7 +45,7 @@ const Team = () => {
 
             <div className='card bg-secondary px-8 py-16 rounded-xl  '>
               <img
-                src={teamImage}
+                src={teamImage3}
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />
@@ -57,7 +60,7 @@ const Team = () => {
 
             <div className='card bg-secondary px-8 py-16 rounded-xl  '>
               <img
-                src={teamImage}
+                src={teamImage4}
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />

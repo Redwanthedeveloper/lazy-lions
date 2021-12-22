@@ -1,5 +1,7 @@
 import React from 'react';
-import rarityImage from '../assets/images/item.png';
+import rarityImage1 from '../assets/images/11.png';
+import rarityImage2 from '../assets/images/12.png';
+import rarityImage3 from '../assets/images/13.png';
 
 const Ratity = () => {
   return (
@@ -34,11 +36,11 @@ const Ratity = () => {
             <div className='rarity__right'>
               <div className='flex gap-8 items-center'>
                 <div className=''>
-                  <img src={rarityImage} alt='' className='rounded-lg' />
+                  <img src={rarityImage1} alt='' className='rounded-lg' />
                 </div>
                 <div className='flex flex-col gap-8'>
-                  <img src={rarityImage} alt='' className='rounded-lg' />
-                  <img src={rarityImage} alt='' className='rounded-lg w-40' />
+                  <img src={rarityImage2} alt='' className='rounded-lg' />
+                  <img src={rarityImage3} alt='' className='rounded-lg w-40' />
                 </div>
               </div>
             </div>
