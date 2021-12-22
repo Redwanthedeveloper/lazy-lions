@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/images/logo.png';
+// import logo from '../assets/images/logo.png';
 
 const Header = () => {
   const [showNav, setShowNav] = useState(false);
@@ -9,7 +9,8 @@ const Header = () => {
         <div className='header__wrapper lg:flex justify-between py-6 lg:py-12'>
           <div className='header__main flex justify-between lg:justify-start lg:flex lg:gap-48 items-center relative'>
             <div className=' w-32 lg:w-40'>
-              <img src={logo} alt='' />
+              {/* <img src={logo} alt='' />  */}
+              <h1 className='font-bold text-4xl text-gradientright'>Logo</h1>
             </div>
             <div className='block lg:hidden'>
               <button

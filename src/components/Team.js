@@ -17,7 +17,7 @@ const Team = () => {
                 className='rounded-full w-40 mx-auto'
               />
               <p className='py-8 font-bold text-center text-white text-lg'>
-                Setup your wallet
+                Henux
               </p>
               <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -32,7 +32,7 @@ const Team = () => {
                 className='rounded-full w-40 mx-auto'
               />
               <p className='py-8 font-bold text-center text-white text-lg'>
-                Setup your wallet
+                Big T
               </p>
               <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -47,7 +47,7 @@ const Team = () => {
                 className='rounded-full w-40 mx-auto'
               />
               <p className='py-8 font-bold text-center text-white text-lg'>
-                Setup your wallet
+                Benscuit
               </p>
               <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,7 +62,7 @@ const Team = () => {
                 className='rounded-full w-40 mx-auto'
               />
               <p className='py-8 font-bold text-center text-white text-lg'>
-                Setup your wallet
+                Rizzle
               </p>
               <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
