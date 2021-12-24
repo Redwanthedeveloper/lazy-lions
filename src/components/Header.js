@@ -28,9 +28,9 @@ const Header = () => {
           <div className='header__main flex justify-between lg:justify-start lg:flex lg:gap-48 items-center relative'>
             <div className=' w-32 lg:w-40'>
               {/* <img src={logo} alt='' />  */}
-              <a href='/'>
+              <Link to='/'>
                 <h1 className='font-bold text-4xl text-gradientright'>Logo</h1>
-              </a>
+              </Link>
             </div>
             <div className='block lg:hidden'>
               <button
