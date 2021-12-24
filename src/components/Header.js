@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { connect } from '../redux/blockchain/blockchainActions';
 import { fetchData } from '../redux/data/dataActions';
 // import logo from '../assets/images/logo.png';
@@ -69,6 +70,9 @@ const Header = () => {
                     <a href='#team'>Team</a>
                   </li>
                   <li className='hover:text-gradientright'>
+                    <Link to='/faq'>Faq</Link>
+                  </li>
+                  <li className='hover:text-gradientright'>
                     <div className='border-[1px] border-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg  font-medium text-white'>
                       <button
                         onClick={(e) => {
@@ -95,6 +99,9 @@ const Header = () => {
                 </li>
                 <li className='hover:text-gradientright'>
                   <a href='#team'>Team</a>
+                </li>
+                <li className='hover:text-gradientright'>
+                  <Link to='/faq'>Faq</Link>
                 </li>
               </ul>
             </div>

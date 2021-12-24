@@ -422,7 +422,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-.border, .border-\[1px\], .border-\[2px\], .border-t-\[1px\], .border-b-\[1px\] {
+.border-\[1px\], .border, .border-\[2px\], .border-t-\[1px\], .border-b-\[1px\] {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
@@ -506,14 +506,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -548,10 +540,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-24 {
   height: 6rem;
-}
-
-.h-\[80vh\] {
-  height: 80vh;
 }
 
 .h-\[50vh\] {
@@ -662,11 +650,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.25rem;
 }
 
-.border {
+.border-\[1px\] {
   border-width: 1px;
 }
 
-.border-\[1px\] {
+.border {
   border-width: 1px;
 }
 
@@ -682,14 +670,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-width: 1px;
 }
 
-.border-secondary {
-  --tw-border-opacity: 1;
-  border-color: rgb(25 27 29 / var(--tw-border-opacity));
-}
-
 .border-gradientleft {
   --tw-border-opacity: 1;
   border-color: rgb(164 94 55 / var(--tw-border-opacity));
+}
+
+.border-secondary {
+  --tw-border-opacity: 1;
+  border-color: rgb(25 27 29 / var(--tw-border-opacity));
 }
 
 .border-gradientright {
@@ -823,14 +811,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -871,11 +859,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(254 215 189 / var(--tw-text-opacity));
 }
 
-.text-secondary {
-  --tw-text-opacity: 1;
-  color: rgb(25 27 29 / var(--tw-text-opacity));
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -895,7 +878,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background: #0a0b0b;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 img {
@@ -979,10 +962,6 @@ img {
     height: 100vh;
   }
 
-  .lg\:h-\[75vh\] {
-    height: 75vh;
-  }
-
   .lg\:h-\[60vh\] {
     height: 60vh;
   }
@@ -1061,11 +1040,6 @@ img {
   .lg\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .lg\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .lg\:pt-24 {
