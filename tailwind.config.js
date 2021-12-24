@@ -4,12 +4,12 @@ module.exports = {
     extend: {
       colors: {
         primary: '#192034',
-        secondary: '#212940',
+        secondary: '#191b1d',
         gradientleft: '#A45E37',
         gradientright: '#FED7BD',
       },
       textColor: {
-        primary: '#4B536A',
+        primary: '#F5F8FFC9',
       },
     },
   },

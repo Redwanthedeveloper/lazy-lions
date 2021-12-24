@@ -12,7 +12,7 @@ const Roadmap = () => {
             </div>
             <div className='roadmap__item '>
               <div className='count '>
-                <h1 className='font-bold text-3xl bg-gradient-to-r  from-gradientright to-gradientleft w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
+                <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   0%
                 </h1>
               </div>
@@ -27,7 +27,7 @@ const Roadmap = () => {
 
             <div className='roadmap__item '>
               <div className='count '>
-                <h1 className='font-bold text-3xl bg-gradient-to-r  from-gradientright to-gradientleft w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
+                <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   20%
                 </h1>
               </div>
@@ -42,7 +42,7 @@ const Roadmap = () => {
 
             <div className='roadmap__item '>
               <div className='count '>
-                <h1 className='font-bold text-3xl bg-gradient-to-r  from-gradientright to-gradientleft w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
+                <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   40%
                 </h1>
               </div>
@@ -59,7 +59,7 @@ const Roadmap = () => {
 
             <div className='roadmap__item '>
               <div className='count '>
-                <h1 className='font-bold text-3xl bg-gradient-to-r  from-gradientright to-gradientleft w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
+                <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   50%
                 </h1>
               </div>
@@ -75,7 +75,7 @@ const Roadmap = () => {
 
             <div className='roadmap__item '>
               <div className='count '>
-                <h1 className='font-bold text-3xl bg-gradient-to-r  from-gradientright to-gradientleft w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
+                <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   80%
                 </h1>
               </div>
@@ -91,7 +91,7 @@ const Roadmap = () => {
 
             <div className='roadmap__item '>
               <div className='count '>
-                <h1 className='font-bold text-3xl bg-gradient-to-r  from-gradientright to-gradientleft w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
+                <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   100%
                 </h1>
               </div>

@@ -27,7 +27,9 @@ const Header = () => {
           <div className='header__main flex justify-between lg:justify-start lg:flex lg:gap-48 items-center relative'>
             <div className=' w-32 lg:w-40'>
               {/* <img src={logo} alt='' />  */}
-              <h1 className='font-bold text-4xl text-gradientright'>Logo</h1>
+              <a href='/'>
+                <h1 className='font-bold text-4xl text-gradientright'>Logo</h1>
+              </a>
             </div>
             <div className='block lg:hidden'>
               <button
@@ -66,6 +68,19 @@ const Header = () => {
                   <li className='hover:text-gradientright'>
                     <a href='#team'>Team</a>
                   </li>
+                  <li className='hover:text-gradientright'>
+                    <div className='border-[1px] border-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg  font-medium text-white'>
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          dispatch(connect());
+                          getData();
+                        }}
+                      >
+                        Connect
+                      </button>
+                    </div>
+                  </li>
                 </ul>
               </div>
             )}
@@ -86,7 +101,7 @@ const Header = () => {
           </div>
 
           <div className='header__right hidden lg:block'>
-            <div className='bg-gradient-to-r from-gradientright to-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg  font-medium text-white'>
+            <div className='border-[1px] border-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg  font-medium text-white'>
               <button
                 onClick={(e) => {
                   e.preventDefault();

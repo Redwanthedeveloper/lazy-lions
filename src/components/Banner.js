@@ -115,7 +115,7 @@ const Banner = () => {
               A collection of 2,222 of the most Babbling Baboons <br />
               Mint cost will be 0.04 eth + gas
             </p>
-            <div className='bg-gradient-to-r from-gradientright to-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg text-xl font-medium text-white'>
+            <div className='border-[1px] border-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg text-xl font-medium text-white'>
               <a href='http://' target='_blank' rel='noopener noreferrer'>
                 Join Us
               </a>
@@ -208,7 +208,7 @@ const Banner = () => {
                     </>
                     <>
                       <div>
-                        <div className='bg-gradient-to-r from-gradientright to-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg text-xl font-medium text-white mx-auto'>
+                        <div className='border-[1px] border-gradientleft text-center py-4 px-8 max-w-[12rem] rounded-lg text-xl font-medium text-white mx-auto'>
                           <button
                             className='btn mint__btn text-white'
                             disabled={claimingNft ? 1 : 0}
