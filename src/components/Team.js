@@ -23,13 +23,13 @@ const Team = () => {
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />
-              <p className='py-8 font-bold text-center text-white text-lg'>
+              <p className='py-2 font-bold text-center text-white text-lg'>
                 Henux
               </p>
-              <p className='text-center text-sm text-white'>
+              {/* <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda in recusandae earum ea voluptatibus fuga quibusdam
-              </p>
+              </p> */}
             </div>
 
             <div
@@ -42,13 +42,13 @@ const Team = () => {
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />
-              <p className='py-8 font-bold text-center text-white text-lg'>
+              <p className='py-2 font-bold text-center text-white text-lg'>
                 Big T
               </p>
-              <p className='text-center text-sm text-white'>
+              {/* <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda in recusandae earum ea voluptatibus fuga quibusdam
-              </p>
+              </p> */}
             </div>
 
             <div
@@ -61,13 +61,13 @@ const Team = () => {
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />
-              <p className='py-8 font-bold text-center text-white text-lg'>
+              <p className='py-2 font-bold text-center text-white text-lg'>
                 Benscuit
               </p>
-              <p className='text-center text-sm text-white'>
+              {/* <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda in recusandae earum ea voluptatibus fuga quibusdam
-              </p>
+              </p> */}
             </div>
 
             <div
@@ -80,13 +80,13 @@ const Team = () => {
                 alt=''
                 className='rounded-full w-40 mx-auto'
               />
-              <p className='py-8 font-bold text-center text-white text-lg'>
+              <p className='py-2 font-bold text-center text-white text-lg'>
                 Rizzle
               </p>
-              <p className='text-center text-sm text-white'>
+              {/* <p className='text-center text-sm text-white'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda in recusandae earum ea voluptatibus fuga quibusdam
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
