@@ -9,8 +9,10 @@ const Ratity = () => {
       <div className='rarity mt-24 pt-12' id='about'>
         <div className='container mx-auto px-4 lg:px-0'>
           <div className='grid lg:grid-cols-2 gap-6 lg:gap-40 items-center'>
-            <div className='rarity__left'>
-              <h3 className=' text-4xl font-bold text-white'>About Us</h3>
+            <div className='rarity__left' data-aos='fade-right'>
+              <h3 className=' text-4xl font-bold text-gradientright'>
+                About Us
+              </h3>
               <p className='py-12 text-primary text-lg'>
                 The Babbling Baboons have been found roaming around causing
                 havoc! We need your help to capture and tame these silly things
@@ -33,7 +35,7 @@ const Ratity = () => {
                 </a>
               </div> */}
             </div>
-            <div className='rarity__right'>
+            <div className='rarity__right' data-aos='zoom-in'>
               <div className='flex gap-8 items-center'>
                 <div className=''>
                   <img src={rarityImage1} alt='' className='rounded-lg' />

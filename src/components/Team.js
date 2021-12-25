@@ -9,11 +9,15 @@ const Team = () => {
     <>
       <div className='team my-24 pt-12' id='team'>
         <div className='container mx-auto px-4 lg:px-0'>
-          <h1 className='text-center text-4xl font-bold text-white'>
+          <h1 className='text-center text-4xl font-bold text-gradientright'>
             Our Team
           </h1>
           <div className='card__wrapper grid md:grid-cols-2 lg:grid-cols-4 mt-24 gap-16'>
-            <div className='card bg-secondary px-8 py-16 rounded-xl  '>
+            <div
+              className='card bg-secondary px-8 py-16 rounded-xl  '
+              data-aos='zoom-in'
+              data-aos-duration='600'
+            >
               <img
                 src={teamImage1}
                 alt=''
@@ -28,7 +32,11 @@ const Team = () => {
               </p>
             </div>
 
-            <div className='card bg-secondary px-8 py-16 rounded-xl  '>
+            <div
+              className='card bg-secondary px-8 py-16 rounded-xl  '
+              data-aos='zoom-in'
+              data-aos-duration='600'
+            >
               <img
                 src={teamImage2}
                 alt=''
@@ -43,7 +51,11 @@ const Team = () => {
               </p>
             </div>
 
-            <div className='card bg-secondary px-8 py-16 rounded-xl  '>
+            <div
+              className='card bg-secondary px-8 py-16 rounded-xl  '
+              data-aos='zoom-in'
+              data-aos-duration='600'
+            >
               <img
                 src={teamImage3}
                 alt=''
@@ -58,7 +70,11 @@ const Team = () => {
               </p>
             </div>
 
-            <div className='card bg-secondary px-8 py-16 rounded-xl  '>
+            <div
+              className='card bg-secondary px-8 py-16 rounded-xl  '
+              data-aos='zoom-in'
+              data-aos-duration='600'
+            >
               <img
                 src={teamImage4}
                 alt=''

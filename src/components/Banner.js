@@ -121,7 +121,10 @@ const Banner = () => {
               </a>
             </div>
           </div>
-          <div className='card bg-secondary px-8 py-16 rounded-xl'>
+          <div
+            className='card bg-[#b77df657] px-8 py-16 rounded-xl'
+            data-aos='zoom-in'
+          >
             <p className='py-8 font-bold text-center text-white text-lg'>
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </p>

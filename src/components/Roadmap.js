@@ -3,14 +3,21 @@ import React from 'react';
 const Roadmap = () => {
   return (
     <>
-      <div className='roadmap mt-24 pt-12' id='roadmap'>
+      <div className='roadmap mt-24 py-12' id='roadmap'>
         <div className='container mx-auto px-4 lg:px-0'>
           <div className='roadmap__wrapper grid  lg:grid-cols-3 gap-10 lg:gap-20'>
-            <div className='roadmap__brief md:col-span-2 lg:col-span-2'>
-              <h3 className=' text-4xl font-bold text-white'>The Roadmap</h3>
+            <div className='roadmap__brief '>
+              <h3 className=' text-4xl font-bold text-gradientright'>
+                The Roadmap
+              </h3>
               <p className='py-12 text-primary text-lg'></p>
             </div>
-            <div className='roadmap__item '>
+            <div
+              className='roadmap__item '
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-delay='500'
+            >
               <div className='count '>
                 <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   0%
@@ -25,7 +32,12 @@ const Roadmap = () => {
               </p>
             </div>
 
-            <div className='roadmap__item '>
+            <div
+              className='roadmap__item '
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-delay='500'
+            >
               <div className='count '>
                 <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   20%
@@ -40,7 +52,12 @@ const Roadmap = () => {
               </p>
             </div>
 
-            <div className='roadmap__item '>
+            <div
+              className='roadmap__item '
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-delay='500'
+            >
               <div className='count '>
                 <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   40%
@@ -57,7 +74,12 @@ const Roadmap = () => {
               </p>
             </div>
 
-            <div className='roadmap__item '>
+            <div
+              className='roadmap__item '
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-delay='500'
+            >
               <div className='count '>
                 <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   50%
@@ -73,7 +95,12 @@ const Roadmap = () => {
               </p>
             </div>
 
-            <div className='roadmap__item '>
+            <div
+              className='roadmap__item '
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-delay='500'
+            >
               <div className='count '>
                 <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   80%
@@ -89,7 +116,12 @@ const Roadmap = () => {
               </p>
             </div>
 
-            <div className='roadmap__item '>
+            <div
+              className='roadmap__item '
+              data-aos='zoom-in'
+              data-aos-duration='1000'
+              data-aos-delay='500'
+            >
               <div className='count '>
                 <h1 className='font-bold text-3xl border-gradientleft border-[2px] w-24 text-center text-white rounded-full h-24 flex items-center justify-center'>
                   100%

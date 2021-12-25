@@ -5,8 +5,8 @@ module.exports = {
       colors: {
         primary: '#192034',
         secondary: '#191b1d',
-        gradientleft: '#A45E37',
-        gradientright: '#FED7BD',
+        gradientleft: '#323879',
+        gradientright: '#bd80fc',
       },
       textColor: {
         primary: '#F5F8FFC9',

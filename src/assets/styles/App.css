@@ -672,7 +672,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-gradientleft {
   --tw-border-opacity: 1;
-  border-color: rgb(164 94 55 / var(--tw-border-opacity));
+  border-color: rgb(50 56 121 / var(--tw-border-opacity));
 }
 
 .border-secondary {
@@ -682,11 +682,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-gradientright {
   --tw-border-opacity: 1;
-  border-color: rgb(254 215 189 / var(--tw-border-opacity));
+  border-color: rgb(189 128 252 / var(--tw-border-opacity));
 }
 
 .border-opacity-30 {
   --tw-border-opacity: 0.3;
+}
+
+.bg-\[\#b77df657\] {
+  background-color: #b77df657;
 }
 
 .bg-secondary {
@@ -699,12 +703,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .from-gradientright {
-  --tw-gradient-from: #FED7BD;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(254 215 189 / 0));
+  --tw-gradient-from: #bd80fc;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(189 128 252 / 0));
 }
 
 .to-gradientleft {
-  --tw-gradient-to: #A45E37;
+  --tw-gradient-to: #323879;
 }
 
 .bg-clip-text {
@@ -856,7 +860,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-gradientright {
   --tw-text-opacity: 1;
-  color: rgb(254 215 189 / var(--tw-text-opacity));
+  color: rgb(189 128 252 / var(--tw-text-opacity));
 }
 
 .transition-all {
@@ -885,9 +889,22 @@ img {
   max-width: 100%;
 }
 
+.banner {
+  background: url('../images/banner.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.roadmap {
+  background: url('../images/roadmapbg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .hover\:text-gradientright:hover {
   --tw-text-opacity: 1;
-  color: rgb(254 215 189 / var(--tw-text-opacity));
+  color: rgb(189 128 252 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -926,6 +943,10 @@ img {
     grid-column: span 2 / span 2;
   }
 
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -944,6 +965,10 @@ img {
 @media (min-width: 1024px) {
   .lg\:col-span-2 {
     grid-column: span 2 / span 2;
+  }
+
+  .lg\:col-span-1 {
+    grid-column: span 1 / span 1;
   }
 
   .lg\:block {

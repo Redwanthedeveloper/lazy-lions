@@ -46,12 +46,8 @@ const ImageSlider = () => {
     <>
       <div className='mt-24 pt-12'>
         <div className='container mx-auto px-4 lg:px-0'>
-          <h3 className=' text-4xl font-bold text-white'>Our Items</h3>
-          <p className='py-12 text-primary text-lg w-full lg:w-2/4'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
-            ab porro expedita voluptate praesentium dignissimos, magnam est
-            saepe labore. Officia!
-          </p>
+          <h3 className=' text-4xl font-bold text-gradientright'>Our Items</h3>
+
           <Slider {...settings}>
             <div className='p-4 lg:p-8'>
               <img
